@@ -1,0 +1,5 @@
+config.json
+*.pyc
+*.pyo
+data/influxdb
+src/src.ino

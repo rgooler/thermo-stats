@@ -1,0 +1,37 @@
+version: "3.8"
+
+services:
+  grafana:
+    container_name: grafana
+    ports:
+      - '3000:3000'
+    image: 'grafana/grafana'
+    volumes:
+      - grafana:/var/lib/grafana
+    networks:
+      tolan:
+        ipv4_address: 10.1.0.3
+  influxdb:
+    container_name: influxdb
+    ports:
+      - '8086:8086'
+    image: 'quay.io/influxdb/influxdb:v2.0.3'
+    volumes:
+      - influxdb:/var/lib/influxdb2
+    networks:
+      tolan:
+        ipv4_address: 10.1.0.2
+    command: influxd run --bolt-path /var/lib/influxdb2/influxd.bolt --engine-path /var/lib/influxdb2/engine --store bolt
+
+volumes:
+  influxdb:
+  grafana:
+
+networks:
+  tolan:
+    driver: macvlan
+    driver_opts:
+      parent: eth0
+    ipam:
+      config:
+        - subnet: 10.1.0.0/24

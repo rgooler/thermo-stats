@@ -1,0 +1,119 @@
+{
+  "uuid": "e22015c033281b0575370f845e15338a",
+  "path": "Offline/thermo-stats",
+  "name": "thermo-stats",
+  "content": "",
+  "created_at": "2021-01-18 18:29:43",
+  "updated_at": "2021-01-18 18:29:58",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "5752e5a135cf145cd3fd104deaf9f0e6",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "630a0ed15fdf4444b5d90571a40fdb06": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BME280",
+          1,
+          "BME280",
+          "BMEU1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4a19b20c0d164685a670d324affa0792",
+            "uuid": ""
+          }
+        ],
+        [
+          "Wemos D1 mini",
+          1,
+          "WEMOS D1 MINI",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "Wemos D1 mini",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8dc7c6297b4a4402a69ed3a78a8d3949",
+            "uuid": "630a0ed15fdf4444b5d90571a40fdb06"
+          }
+        ]
+      ],
+      "updateTime": 1611016183,
+      "createTime": 1611016183,
+      "histories": [],
+      "created_at": "2021-01-18 18:29:43",
+      "updated_at": "2021-01-18 18:29:43"
+    },
+    {
+      "uuid": "8dc61848cb5b191b0238a2c77b3ed791",
+      "puuid": "e22015c033281b0575370f845e15338a",
+      "title": "PCB",
+      "filename": "PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "4a19b20c0d164685a670d324affa0792": 1,
+        "8dc7c6297b4a4402a69ed3a78a8d3949": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "BME280",
+          1,
+          "BME280",
+          "BMEU1",
+          {
+            "BOM_Manufacturer Part": "?",
+            "puuid": "4a19b20c0d164685a670d324affa0792",
+            "uuid": ""
+          }
+        ],
+        [
+          "Wemos D1 mini",
+          1,
+          "WEMOS D1 MINI",
+          "U1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "Wemos D1 mini",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "8dc7c6297b4a4402a69ed3a78a8d3949",
+            "uuid": "630a0ed15fdf4444b5d90571a40fdb06"
+          }
+        ]
+      ],
+      "updateTime": 1611016198,
+      "createTime": 1611016198,
+      "histories": [],
+      "created_at": "2021-01-18 18:29:58",
+      "updated_at": "2021-01-18 18:29:58"
+    }
+  ],
+  "sort": [],
+  "title": "thermo-stats",
+  "foldername": "thermo-stats",
+  "schfilename": "thermo-stats.json",
+  "schfilemtime": 1611016183921
+}
