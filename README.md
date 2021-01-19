@@ -3,6 +3,16 @@ Thermo-stats
 
 A personal project to log the temperatures of various areas in/around my home using custom smart devices.
 
+Required Arduino Libraries
+---------------------------
+
+* https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino
+* https://github.com/adafruit/Adafruit_BME280_Library
+
+Board manager URL for esp8266 support:
+
+* http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
 Shopping List
 -------------
 
