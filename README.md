@@ -134,24 +134,24 @@ Assembly
 
 Step 1 of assembling is to do the soldering. While the BME280 board can be screwed in place with a 10mm tall riser and holds the pins nice and easily in place for soldering, dealing with the d1 mini was more tricky. However, the nice bit about having extra PCBs is you can put in 15mm m3 standoffs and make a quick and janky soldering fixture!
 
-![Soldering fixture](soldering_fixture_1.jpg)
+![Soldering fixture](img/soldering_fixture_1.jpg)
 
 Just get one d1 mini with male pins soldered facing down (IE: for breadboard use) and push on female headers and make yourself a soldering sandwich as shown here. Then its quick and easy to just solder down the lines.
 
-![Soldering fixture in use](soldering_fixture_2.jpg)
+![Soldering fixture in use](img/soldering_fixture_2.jpg)
 
 For installing the PCB onto the base, I use standoffs to screw down the PCB to the baseplate - then reuse that same screw layout for holding the lid down. If I was going to redo this - I'd redesign the case to take separate screws to attach the case - this is a major pain when trying to unscrew the lid, as the standoffs tend to unthread before the screws on the top of the case.
 
 Installation was eased by using some m3 screws in the standoffs, and when your threading pressure suddenly becomes WAY higher, you've run out of thread and are now trying to drive the pcb through the plastic. So just stop and unscrew and the m3 screw will just pop out.
 
-![Using an m3 screw to install standoffs](installing_1.jpg)
+![Using an m3 screw to install standoffs](img/installing_1.jpg)
 
-![All standoffs installed](installing_2.jpg)
+![All standoffs installed](img/installing_2.jpg)
 
 Then to get the longer m3 screws in, just put the lid on top, push the screws straight down, and start threading in by hand. I found it VERY easy to feel when you had threads engaging, and a light tug upwards on the screw confirmed that I'd successfully caught the standoff. Then just tighten the screws with a wrench.
 
 Now, do some artful knolling to make sure you have enough hardware of all the right sizes (or adapt), and run off as many as you need to cover your needs.
 
-![Unassembled cases with knolled parts](production_run_1.jpg)
+![Unassembled cases with knolled parts](img/production_run_1.jpg)
 
-![Assembled cases](production_run_2.jpg)
+![Assembled cases](img/production_run_2.jpg)
